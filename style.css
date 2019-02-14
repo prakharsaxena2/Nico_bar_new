@@ -1,0 +1,128 @@
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+
+
+}
+.header-right{
+  padding-top: 10px;
+  float: right;
+}
+.design{
+
+ background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+<!--images Hover-->
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100px;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 50%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.navbar1
+{
+  position:fixed;
+  top: 69px;
+  z-index: 2;
+  width: 98%;
+  margin-left: 12px;
+}
+.newheader
+{
+   position:fixed;
+   width: 98%;
+   top:0;
+   z-index: 1;
+   margin-left: 12px;
+}
+
+
+
+
+
+
+dropdown1 {
+  position: initial;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
